@@ -1,0 +1,2 @@
+https://github.com/AlphaGoMK/Learn-PyTorch.git
+Test git command on Ubuntu 16.04
