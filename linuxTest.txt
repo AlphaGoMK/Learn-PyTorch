@@ -4,3 +4,5 @@ Git add
 Git commit -m 
 Git push
 
+cd //
+git config --global credential.helper store
