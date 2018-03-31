@@ -1,8 +1,21 @@
 https://github.com/AlphaGoMK/Learn-PyTorch.git
 Test git command on Ubuntu 16.04
-Git add
-Git commit -m 
-Git push
+
+sudo apt-get install git
+which ssh
+ssh-keygen -t rsa -C "alphagomk@foxmail.com"
+cd //root/.ssh/
+gedit id_rsa.pub
+
+git config --global user.email "alphagomk@foxmail.com"
+git config --global user.name "LinuxGoMK"
 
 cd //
 git config --global credential.helper store
+git config --global push.default simple
+
+git clone https://github.com/AlphaGoMK/Learn-PyTorch.git
+git status
+git add
+git commit -m "xxx"
+git push
